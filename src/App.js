@@ -1,25 +1,28 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Banner from './components/Banner/Banner.js';
+import Scroll from './components/Scroll/Scroll.js';
+import Summary from './components/Summary/Summary.js';
+import Skills from './components/Skills/Skills.js';
+import Projects from './components/Projects/Projects.js';
+import {BrowserRouter as Router, Link} from 'react-router-dom';
+import Route from 'react-router-dom/Route';
 import './App.css';
 
 class App extends Component {
+  constructor(){
+    super()
+    this.state={
+      route:'home'
+    }
+  }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <Banner/>
+      <Summary/>
+      <Skills/>
+      <Projects/>
       </div>
     );
   }
