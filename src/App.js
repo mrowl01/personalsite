@@ -1,28 +1,23 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Home from './components/Home/Home.js';
 import Banner from './components/Banner/Banner.js';
-import Scroll from './components/Scroll/Scroll.js';
-import Summary from './components/Summary/Summary.js';
-import Skills from './components/Skills/Skills.js';
-import Projects from './components/Projects/Projects.js';
-import {BrowserRouter as Router, Link} from 'react-router-dom';
-import Route from 'react-router-dom/Route';
+import {Switch, Route} from 'react-router-dom';
 import './App.css';
 
+const Main = () =>(
+  <Switch>
+    <Route exact path ='/' component = {Home}></Route>
+    <Route exact path ='/portfolio' component = {Home}></Route>
+  </Switch>
+);
+
 class App extends Component {
-  constructor(){
-    super()
-    this.state={
-      route:'home'
-    }
-  }
   render() {
     return (
       <div className="App">
       <Banner/>
-      <Summary/>
-      <Skills/>
-      <Projects/>
+      <Main/>
       </div>
     );
   }
