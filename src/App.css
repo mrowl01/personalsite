@@ -1,10 +1,8 @@
 body{
   margin:0;
   max-width:414;
-  background-image:url(https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  background-repeat:no-repeat;
-  background-origin: center;
-  background-size:cover;
+ background-color:grey;
+
 }
 .banner{
   position: fixed;
@@ -49,6 +47,7 @@ body{
 
 .main-pic{
     margin-top:15%;
+    width:175px;
 }
 .main-name{
   font-size: 40px;

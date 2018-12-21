@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './Banner.css';
+import profileImage from './profileImage.jpg'
 
 class Banner extends Component {
 	render(){
 		return(
 		<div className = 'banner fl w-25  vh-100 tc '>
 			<img 
-			className = 'br-100 w-50 main-pic'
-			src = 'https://i.postimg.cc/9Fh8CzK2/IMG-7619.jpg' 
+			className = 'br-100 main-pic'
+			src = {profileImage}
 			></img>
 			<h1 className= 'main-name'>Chris Ortega</h1>
 			<h1 className = 'job-title'>Software Engineer</h1>
