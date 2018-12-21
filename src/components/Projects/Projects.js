@@ -9,29 +9,29 @@ import face from './images/Face_detect2.png';
 class Projects extends Component {
 	render(){
 		return (
-			<div className= 'sections fl w-75 bg-green'>
-			<h1>Projects</h1>
-				<div className = 'skillItems projects'>
-					<div title = '3D Rail Shooter' className = 'project  grow'>
-						<img className='br-100' src={space3d}></img>
+			<div id ='project' className= 'sections mv4 fl'>
+			<h1 className = 'tc'>Projects</h1>
+				<div  className = 'skillItems projects flex-wrap flex justify-between '>
+					<div title = '3D Rail Shooter' className = 'project  grow pa3'>
+						<a href='/portfolio/shoot3d'><img className='br-100' src={space3d}></img></a>
 					</div>
-					<div title = '2d Space Invader' className = 'project  grow'>
-						<img className='br-100' src={space2d}></img>
+					<div title = '2d Space Invader' className = 'project  grow pa3 pa3'>
+						<a href='/portfolio/shoot2d'><img className='br-100' src={space2d}></img></a>
 					</div>
-					<div title = 'Glitch Garden' className = 'project  grow'>
-						<img className='br-100' src={glitch}></img>
+					<div title = 'Glitch Garden' className = 'project  grow pa3'>
+						<a href='/portfolio/glitch'><img className='br-100' src={glitch}></img></a>
 					</div>
-					<div title = 'Minotaur Dungeon Crawl' className = 'project  grow'>
-						<img className='br-100' src={mino}></img>
+					<div title = 'Minotaur Dungeon Crawl' className = 'project  grow pa3'>
+						<a href='/portfolio/dungeon'><img className='br-100' src={mino}></img></a>
 					</div>
-					<div title = 'Starwars Search' className = 'project  grow'>
-						<img className='br-100' src={wars}></img>
+					<div title = 'Starwars Search' className = 'project  grow pa3'>
+						<a href='/portfolio/starwars'><img className='br-100' src={wars}></img></a>
 					</div>
-					<div title = 'Robot Buddies' className = 'project  grow'>
-						<img className='br-100' src={buds}></img>
+					<div title = 'Robot Buddies' className = 'project  grow pa3'>
+						<a href='/portfolio/robots'><img className='br-100' src={buds}></img></a>
 					</div>
-					<div title = 'Face Detector' className = 'project  grow'>
-						<img className='br-100' src={face}></img>
+					<div title = 'Face Detector' className = 'project  grow pa3'>
+						<a href='/portfolio/facedetect'><img className='br-100' src={face}></img></a>
 					</div>
 				</div>
 			</div>

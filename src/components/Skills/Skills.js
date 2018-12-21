@@ -20,9 +20,9 @@ import unreal from './SkillImages/unreal.png';
 class Skills extends Component {
 	render(){
 		return (
-			<div className= 'sections fl w-75 bg-red'>
-			<h1>Skills</h1>
-				<div className = 'skillItems'>
+			<div className= 'sections mv4 fl'>
+			<h1 className = 'tc'>Skills</h1>
+				<div className = 'skillItems projects flex-wrap flex justify-between '>
 					<div title = 'bootstrap' className = 'box br-100 grow'>
 						<img src={boot}></img>
 					</div>
