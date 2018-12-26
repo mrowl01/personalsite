@@ -6,7 +6,7 @@ class Dungeon extends Component {
 		<div className = 'sections tc' >
 			<h1>Minotaur Dungeon</h1>
 			<hr/>
-			<img  src='https://i.postimg.cc/mgv4FvdW/minotaur.png'></img>
+			<img alt='' src='https://i.postimg.cc/mgv4FvdW/minotaur.png'></img>
 			<h2>Tech Stack </h2>
 			Unity3D & C#
 			<h2> Decription</h2>

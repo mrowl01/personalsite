@@ -6,7 +6,7 @@ class FaceDetect extends Component {
 		<div className = 'sections tc' >
 			<h1>Picture Face Detector</h1>
 			<hr/>
-			<img  src='https://i.postimg.cc/gkPTkBLQ/face.png'></img>
+			<img alt='' src='https://i.postimg.cc/gkPTkBLQ/face.png'></img>
 			<h2>Tech Stack </h2>
 			Made with React Tachyons for styling 
 			<h2> Decription</h2>

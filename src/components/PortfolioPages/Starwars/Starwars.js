@@ -9,7 +9,9 @@ class Starwars extends Component {
 		<div className = 'sections tc' >
 			<h1>StarWars</h1>
 			<hr/>
-			<img className='starwarsimage' src='https://i.postimg.cc/7PfW5Vjq/starwars.png'></img>
+			<img className='starwarsimage'
+			alt= ''
+			 src='https://i.postimg.cc/7PfW5Vjq/starwars.png'></img>
 			<h2>Tech Stack </h2>
 			Made with React and Tachyons for stylin
 			<h2> Decription</h2>

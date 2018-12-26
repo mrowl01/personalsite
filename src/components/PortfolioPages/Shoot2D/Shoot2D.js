@@ -6,7 +6,7 @@ class Shoot2D extends Component {
 		<div className = 'sections tc' >
 			<h1>3D Rail Shooter</h1>
 			<hr/>
-			<img  src='https://i.postimg.cc/zvsCx5XC/2dspace.png'></img>
+			<img alt='' src='https://i.postimg.cc/zvsCx5XC/2dspace.png'></img>
 			<h2>Tech Stack </h2>
 			Unity3D
 			<h2> Decription</h2>
