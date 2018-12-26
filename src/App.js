@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 // import Home from './components/Home/Home.js';
 //import Portfolio from './components/Portfolio/Portfolio.js';
 // import Starwars from './components/PortfolioPages/Starwars/Starwars.js';
