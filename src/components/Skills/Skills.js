@@ -24,55 +24,55 @@ class Skills extends Component {
 			<h1 className = 'tc'>Skills</h1>
 				<div className = 'skillItems projects flex-wrap flex justify-between '>
 					<div title = 'bootstrap' className = 'box br-100 grow'>
-						<img src={boot}></img>
+						<img alt = '' src={boot}></img>
 					</div>
 					<div title = 'C++' className = 'box br-100 grow'>
-						<img src={cplus}></img>
+						<img alt = '' src={cplus}></img>
 					</div>
 					<div title = 'C#' className = 'box br-100 grow'>
-						<img src={csharp}></img>
+						<img alt = '' src={csharp}></img>
 					</div>
 					<div title = 'CSS' className = 'box br-100 grow'>
-						<img src={css}></img>
+						<img alt = '' src={css}></img>
 					</div>
 					<div title = 'Express' className = 'box br-100 grow'>
-						<img src={express}></img>
+						<img alt = '' src={express}></img>
 					</div>
 					<div title = 'Heroku' className = 'box br-100 grow'>
-						<img src={heroku}></img>
+						<img alt = '' src={heroku}></img>
 					</div>
 					<div title = 'HTML' className = 'box br-100 grow'>
-						<img src={html}></img>
+						<img alt = '' src={html}></img>
 					</div>
 					<div title = 'Javascript' className = 'box br-100 grow'>
-						<img src={javascript}></img>
+						<img alt = '' src={javascript}></img>
 					</div>
 					<div title = 'JQuery' className = 'box br-100 grow'>
-						<img src={jquery}></img>
+						<img alt = '' src={jquery}></img>
 					</div>
 					<div title = 'MySql' className = 'box br-100 grow'>
-						<img src={mysql}></img>
+						<img alt = '' src={mysql}></img>
 					</div>
 					<div title = 'Node Js' className = 'box br-100 grow'>
-						<img src={node}></img>
+						<img alt = '' src={node}></img>
 					</div>
 					<div title = 'Postgres' className = 'box br-100 grow'>
-						<img src={postgres}></img>
+						<img alt = '' src={postgres}></img>
 					</div>
 					<div title = 'Python' className = 'box br-100 grow'>
-						<img src={py}></img>
+						<img alt = '' src={py}></img>
 					</div>
 					<div title = 'React' className = 'box br-100 grow'>
-						<img src={react}></img>
+						<img alt = '' src={react}></img>
 					</div>
 					<div title = 'Redux' className = 'box br-100 grow'>
-						<img src={redux}></img>
+						<img alt = '' src={redux}></img>
 					</div>
 					<div title = 'Unity 3D' className = 'box br-100 grow'>
-						<img src={unity}></img>
+						<img alt = '' src={unity}></img>
 					</div>
 					<div title = 'Unreal Engine' className = 'box br-100 grow'>
-						<img src={unreal}></img>
+						<img alt = '' src={unreal}></img>
 					</div>
 				</div>
 			</div>

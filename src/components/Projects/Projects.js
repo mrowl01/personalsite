@@ -13,25 +13,25 @@ class Projects extends Component {
 			<h1 className = 'tc'>Projects</h1>
 				<div  className = 'skillItems projects flex-wrap flex justify-between '>
 					<div title = '3D Rail Shooter' className = 'project  grow pa3'>
-						<a href='/portfolio/shoot3d'><img className='br-100' src={space3d}></img></a>
+						<a href='/portfolio/shoot3d'><img alt = '' className='br-100' src={space3d}></img></a>
 					</div>
 					<div title = '2d Space Invader' className = 'project  grow pa3 pa3'>
-						<a href='/portfolio/shoot2d'><img className='br-100' src={space2d}></img></a>
+						<a href='/portfolio/shoot2d'><img alt = '' className='br-100' src={space2d}></img></a>
 					</div>
 					<div title = 'Glitch Garden' className = 'project  grow pa3'>
-						<a href='/portfolio/glitch'><img className='br-100' src={glitch}></img></a>
+						<a href='/portfolio/glitch'><img alt = '' className='br-100' src={glitch}></img></a>
 					</div>
 					<div title = 'Minotaur Dungeon Crawl' className = 'project  grow pa3'>
-						<a href='/portfolio/dungeon'><img className='br-100' src={mino}></img></a>
+						<a href='/portfolio/dungeon'><img alt = '' className='br-100' src={mino}></img></a>
 					</div>
 					<div title = 'Starwars Search' className = 'project  grow pa3'>
-						<a href='/portfolio/starwars'><img className='br-100' src={wars}></img></a>
+						<a href='/portfolio/starwars'><img alt = '' className='br-100' src={wars}></img></a>
 					</div>
 					<div title = 'Robot Buddies' className = 'project  grow pa3'>
-						<a href='/portfolio/robots'><img className='br-100' src={buds}></img></a>
+						<a href='/portfolio/robots'><img alt = '' className='br-100' src={buds}></img></a>
 					</div>
 					<div title = 'Face Detector' className = 'project  grow pa3'>
-						<a href='/portfolio/facedetect'><img className='br-100' src={face}></img></a>
+						<a href='/portfolio/facedetect'><img alt = '' className='br-100' src={face}></img></a>
 					</div>
 				</div>
 			</div>

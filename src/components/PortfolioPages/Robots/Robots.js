@@ -9,7 +9,9 @@ class Robots extends Component {
 		<div className = 'sections tc' >
 			<h1>Robot Contact Card Searcher</h1>
 			<hr/>
-			<img className='starwarsimage' src='https://i.postimg.cc/5N2V0LbJ/robo.png'></img>
+			<img className='starwarsimage'
+			alt= ''
+			src='https://i.postimg.cc/5N2V0LbJ/robo.png'></img>
 			<h2>Tech Stack </h2>
 			Made with React with Redux and Tachyons for styling 
 			<h2> Decription</h2>

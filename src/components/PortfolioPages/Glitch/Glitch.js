@@ -6,7 +6,7 @@ class Glitch extends Component {
 		<div className = 'sections tc' >
 			<h1>Glitch Garden</h1>
 			<hr/>
-			<img  src='https://i.postimg.cc/hG6dm59F/glitchs.png'></img>
+			<img alt='' src='https://i.postimg.cc/hG6dm59F/glitchs.png'></img>
 			<h2>Tech Stack </h2>
 			Unity3D & C#
 			<h2> Decription</h2>
